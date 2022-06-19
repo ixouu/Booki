@@ -730,7 +730,7 @@ footer h4{
     }
     .marseille--card__infos{
         height: 80px;
-        border-radius: 0 0 30px 30px;
+        border-radius: 0 0 10px 10px;
         padding: 8px 0 4px 12px;
         justify-content: space-between;
     }
