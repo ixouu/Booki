@@ -100,7 +100,7 @@ form{
     display: flex;
     border: 1px solid var(--grey-color);
     border-radius: 15px;
-    width: 29.15vw;
+    width: 420px;
 }
 .locationDot{
     display: flex;
@@ -142,18 +142,19 @@ form{
 .header--filters{
     display: flex;
     align-items:center;
-    padding-top: 22px;
+    padding-top: 28px;
 }
-.header--filters h4{
-    padding: 0 2.6% 0 12px ;
+.header--filters h2{
+    padding: 0 31px 0 12px ;
     font-size: var(--filter-fontSize);
     letter-spacing: 0.5px;
     word-spacing: -1.5px;
+    font-weight: 900;
 }
 .filter--btn{
     display: flex;
     align-items: center;
-    margin-right: 2.2%;
+    margin-right: 28px;
     border: 2px solid var(--grey-color);
     height: 50px;
     border-radius: 50px;
@@ -162,9 +163,6 @@ form{
 }
 .filter--btn:hover{
     background-color: var(--secondary-color);
-}
-.filter--btn__2, .filter--btn__3{
-    margin-right: 2%;
 }
 .filter--btn a{
     text-decoration: none;
@@ -245,7 +243,7 @@ form{
     justify-content: space-between;
     width: 81%;
 }
-.popular--title h4{
+.popular--title h2{
     font-size: var(--header-fontSize);
     letter-spacing: -0.5px;
     margin: 0;
@@ -661,10 +659,11 @@ footer h4{
         margin: 0;
         justify-content: flex-start;
     }
-    .header--filters h4{
+    .header--filters h2{
         padding: 20px 0 16px 0;
         margin: 0;
         width: 100%;
+        font-size: 1rem;
     }
     .filter--btn{
         margin-bottom: 16px;
